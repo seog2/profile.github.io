@@ -1,1 +1,1 @@
-# seog2.github.io
+# profile.github.io
