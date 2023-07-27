@@ -1,3 +1,7 @@
 <div align="center">
-<a href="seog2.github.io">seog2.github.io</a>
+<h2>Bootstrap My Profile blog io 💪</h2>
+
+Welcome 😄
+
+[seog2.github.io](https://seog2.github.io)
 </div>
