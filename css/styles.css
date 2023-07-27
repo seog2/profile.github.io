@@ -581,7 +581,12 @@ progress {
 .list-inline-item:not(:last-child) {
   margin-right: 0.5rem;
 }
-
+.list-inline-item img {
+  width: 100%;
+  max-width: 72px;
+  height: 72px;
+  display: inline-block;
+}
 .initialism {
   font-size: 0.875em;
   text-transform: uppercase;
