@@ -10981,3 +10981,138 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+/* skill bar */
+.wrapper{
+  width: 100%;
+  min-width: 590px;
+}
+.container{
+  width: 100%;
+  padding: 30px 30px 50px;
+  background-color: white;
+  /* border: 2px solid rgba(255,255,255,0.06);
+  border-radius: 10px;
+  box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+  backdrop-filter: blur(10px); */
+} 
+.container *{
+  font-weight: 500;
+}
+h2{
+  margin-bottom: 50px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-weight: bold;
+}
+.bar-text {
+  text-align: left;
+}
+
+.skills:not(:last-child){
+  margin-bottom: 5px;
+}
+.details{
+  width: 100%;
+  display: flex;  
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.bar{
+  position: relative;
+
+  border: 2px solid #0d96e0;
+
+  border-radius: 20px;
+
+}
+.bar div{
+  position: relative;
+  width: 0;
+  height: 9px;
+  border-radius: 10px;
+  background-color: #0d96e0;
+ 
+
+}
+#html-bar{
+  animation: html-fill 2s forwards;
+}
+@keyframes html-fill{
+  100%{
+      width: 90%;
+  }
+}
+#css-bar{
+  animation: css-fill 2s forwards;
+}
+
+@keyframes css-fill{
+  100%{
+      width: 85%;
+  }
+}
+#js-bar{
+  animation: js-fill 2s forwards;
+}
+@keyframes js-fill {
+  100%{
+      width: 80%;
+  }
+}
+#jQuery-bar{
+  animation: jQuery-fill 2s forwards;
+}
+@keyframes jQuery-fill{
+  100%{
+      width: 80%;
+  }
+}
+#ps-bar{
+  animation: ps-fill 2s forwards;
+}
+@keyframes ps-fill{
+  100%{
+      width: 90%;
+  }
+} 
+#ai-bar{
+  animation: ai-fill 2s forwards;
+}
+@keyframes ai-fill{
+  100%{
+      width: 85%;
+  }
+} 
+#figma-bar{
+  animation: figma-fill 2s forwards;
+}
+@keyframes figma-fill{
+  100%{
+      width: 85%;
+  }
+}
+#java-bar{
+  animation: java-fill 2s forwards;
+}
+@keyframes java-fill{
+  100%{
+      width: 70%;
+  }
+} 
+#oracle-bar{
+  animation: oracle-fill 2s forwards;
+}
+@keyframes oracle-fill{
+  100%{
+      width: 65%;
+  }
+} 
+
+#mysql-bar{
+  animation: mysql-fill 2s forwards;
+}
+@keyframes mysql-fill{
+  100%{
+      width: 65%;
+  }
+} 
