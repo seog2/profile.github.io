@@ -184,6 +184,11 @@ address {
   line-height: inherit;
 }
 
+ul,
+li {
+  list-style: none;
+}
+
 ol,
 ul {
   padding-left: 2rem;
